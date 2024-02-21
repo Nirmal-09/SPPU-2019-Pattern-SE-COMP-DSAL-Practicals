@@ -1,4 +1,3 @@
-
 s1=set()
 s2=set()
 def create(a) :
@@ -75,8 +74,8 @@ while (a==1) :
 			create(s2)
 				
 		elif choice==2 :
-			print("1. Add element in s1")
-			print("2. Add element in s2")
+			print("1. Add element in set 1")
+			print("2. Add element in set 2")
 			choice=int(input("Enter your choice :- "))
 			if choice==1:
 				add(s1)
@@ -84,8 +83,8 @@ while (a==1) :
 				add(s2)
 				
 		elif choice==3:
-			print("1. Remove element from s1")
-			print("2. Remove element from s2")
+			print("1. Remove element from set 1")
+			print("2. Remove element from set 2")
 			choice=int(input("Enter your choice :- "))
 			if choice==1:
 				remove(s1)
@@ -93,15 +92,10 @@ while (a==1) :
 				remove(s2)
 								
 		elif choice==4:
-			print("1. Search element from s1")
-			print("2. Search element from s2")
+			print("1. Search element from set 1")
+			print("2. Search element from set 2")
 			choice=int(input("Enter your choice :- "))
 			if choice==1:
 				search(s1)
 			elif choice==2:
 				search(s2)
-			 
-			
-
-set.py
-Displaying set.py.
