@@ -24,7 +24,7 @@ def search(a):
 	s3=a
 	e=int(input("Enter the element which has to be Searched :- "))
 	if e in s3 :
-		print(f"Element is present in the set at position !!")
+		print(f"Element is present in the set !!")
 	else:
 		print("Element is not present in the set !!")
 	
